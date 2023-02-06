@@ -10,9 +10,17 @@
 
 <body>
   <form action="http://127.0.0.1:3000/" method="post" enctype="multipart/form-data">
-    <input type="text" name="name" placeholder="Enter your name">
-    <input type="text" name="email" placeholder="Enter your email">
-    <input type="file" name="file">
+    <label for="name">
+      <input type="text" name="name" placeholder="Enter your name">
+    </label>
+
+    <label for="email">
+      <input type="text" name="email" placeholder="Enter your email">
+    </label>
+
+    <label for="avatar">
+      <input type="file" name="avatar">
+    </label>
     <button type="submit">Submit</button>
   </form>
 </body>
